@@ -34,7 +34,7 @@ const Dashbaord = () => {
         <UploadButton />
       </div>
       {files && !!files.length ? (
-        <ul className="mt-8 grid-cols-1 gap-6 divide-y divide-zinc-200 mg:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-8 grid grid-cols-1 gap-6 divide-y divide-zinc-200 mg:grid-cols-2 lg:grid-cols-3">
           {files
             .toSorted(
               (a, b) =>
